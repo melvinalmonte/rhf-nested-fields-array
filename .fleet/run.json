@@ -1,0 +1,13 @@
+{
+  "configurations": [
+    {
+      "type": "command",
+      "name": "Start Dev",
+      "program": "$USER_HOME$/.nvm/versions/node/v16.15.1/bin/npm",
+      "args": [
+        "run",
+        "dev"
+      ]
+    }
+  ]
+}
