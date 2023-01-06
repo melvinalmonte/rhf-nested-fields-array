@@ -59,7 +59,7 @@ const NestedArray = ({ nestIndex, control, register }: any) => {
 
 // High level question field array
 function FieldArray({ control, register, setValue, getValues }: any) {
-  const { fields, append, remove, prepend } = useFieldArray({
+  const { fields, append, remove } = useFieldArray({
     control,
     name: "assessment",
   });
@@ -136,7 +136,7 @@ function App() {
   return (
     <main>
       <form onSubmit={handleSubmit(onSubmit)}>
-        <h1>Array of Array Fields</h1>
+        <h1>Funky Nested array field tester.</h1>
         <p>
           The following example demonstrate the ability of building nested array
           fields.
